@@ -6,8 +6,10 @@ int main()
 
     float a,b,som,sub,mul,d;
     
-    printf("entrez nombres a et b : ");
-    scanf("%f%f",&a,&b);
+    printf("entrez nombre a : ");
+    scanf("%f",&a);
+    printf("entrez nombre b : ");
+    scanf("%f",&b);
     som = a+b ;
     sub = a-b ;
     mul = a*b ;
