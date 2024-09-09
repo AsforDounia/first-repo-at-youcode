@@ -18,10 +18,10 @@ int main()
     printf("entrez x2 : ");
     scanf("%f",&x2);
     printf("entrez y2 : ");
-    scanf("%f",&y1);
+    scanf("%f",&y2);
     printf("entrez z2 : ");
     
-    scanf("%f",&z1);
+    scanf("%f",&z2);
     dis = sqrt(pow(x2-x1,2)+pow(y2-y1,2)+pow(z2-z1,2));
     printf(" la distance = %f",dis);
     return 0;
