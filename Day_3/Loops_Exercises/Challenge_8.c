@@ -2,7 +2,7 @@
 
 
 int main(){
-    //  Rechercher un Élément
+    //  Recherche Dichotomique
     
     int  n ,elem_rech ,temp , present = 0 ;
     printf("Entrez le nombre de cases dans votre tableau : ");
