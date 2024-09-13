@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-// pyramide d'etoile
+// 
 
 int impair , n;
 
