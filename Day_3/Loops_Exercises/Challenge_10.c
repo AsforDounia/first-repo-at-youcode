@@ -15,7 +15,7 @@ int main()
 	int i = 0; 
 
 
-	srand((unsigned int)(time(NULL))); 
+	srand(time(NULL)); 
 
 	char generateur[62] = "0123456789abcdefghijklmnoqprstuvwyzxABCDEFGHIJKLMNOQPRSTUYWVZX";
 

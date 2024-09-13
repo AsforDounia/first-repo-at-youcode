@@ -8,19 +8,19 @@ int main()
     
     printf("Entrez un nombre entier  : ");
     scanf("%d",&n);
-    for( i = 0 ; i <= n ; i++ ){
-        if( n == 0 ){
-            printf("f(%d) = %d",n ,f0);
-        }
-        else if( n == 1 ){
-            printf("f(%d) = %d",n ,f1);
-            break ;
-        }
-        else {
-            fx = f0 + f1 ;
-            f0 = f1 ;
-            f1 = fx ;
-        }
+    
+    if( n == 0 ){
+        printf("f(%d) = %d",n ,f0);
+    }
+    else if( n == 1 ){
+        printf("f(%d) = %d",n ,f1);
+    }
+    else {
+        for( i = 2 ; i <= n ; i++ ){
+        fx = f0 + f1 ;
+        f0 = f1 ;
+        f1 = fx ;
+    }
 
     }
     if( n != 0 && n != 1 ) {
